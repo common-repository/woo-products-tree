@@ -1,0 +1,79 @@
+
+.mi-cats ul, .mi-cats li, .mi-cats h3{
+	margin: 0; 
+	padding: 0;}
+.mi-cats{
+	border-radius: 5px;
+	padding-bottom: 1px;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	background-color:transparent;
+}
+.mi-cats-content{
+	display: none;
+}
+.mi-show-button{
+	display: inline-block;
+	width: 13%;
+	max-width: 60px;
+	height: 1.4em; 
+	float:left; 
+	background-image: url('../img/showupdown7.png');
+	background-size: auto 200%;
+	background-position:50% 100%;
+	cursor: pointer;  
+}
+.mi-catname{
+	display: inline;
+	margin-left: 2%;
+}
+.mi-currentcat{
+	margin-bottom: 10px;
+}
+.mi-borders.mi-currentcat, .mi-borders .mi-currentcat, 
+.mi-borders.mi-viewing, .mi-borders .mi-viewing{	
+	border-left: 1px solid #AAA;
+	border-bottom: 1px solid #AAA;
+}
+.mi-currentcat .mi-currentcat{background-color: inherit;}
+.mi-currentcat>.mi-show-button{
+	background-position:50% 0;
+}
+.mi-cats2{
+	border-radius: 5px;
+	margin-left: 7%; 
+	margin-right: 1%;
+}
+.mi-catprodlist{
+	list-style-position: inside;
+}
+.mi-currentcat>.mi-cats-content{
+	display: block;
+	height: inherit;
+}
+.mi-cats ul{
+	margin-top: 8px;
+	margin-left: 8%;
+	list-style-position: inside;}
+.mi-cats li{
+	margin: 1px 4% 2% 0%;
+	padding-left:3px; 
+	border-radius: 5px;
+}
+.mi-cats ul li{border: 0px;}
+.mi-prod a span{
+	margin-left: -0px; 
+}
+.mi-currentprod{
+	background-color: rgba(255,255,255,0.5);
+	text-decoration: underline;
+	/*font-weight: bold;*/
+}
+.mi-currentprod a{color: inherit;}
+.mi-prod a>img{
+	height: auto;
+	display: inline;
+	margin-right: 3px;
+	box-shadow: none; 
+	border: 0px;
+}
